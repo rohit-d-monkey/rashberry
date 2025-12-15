@@ -1,0 +1,8 @@
+step to use docker to run the jellyfin services 
+
+- install docker and docker compose 
+- lsblk -- add the on file end - nano /boot/firmware/config.txt --- dtparam=pciex1
+- create the folder or add the path of local media location to the jellyfin config --check the docker-compose ( tvshow/ movies / config)
+- docker compose up -d
+- docker compose down
+- docker compose restart jellyfin
